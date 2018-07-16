@@ -3,12 +3,39 @@
     "channel": "C2147483705",
     "user": "U2147483697",
     "text": "Hello world",
-    "ts": "1355517523.000005"
+    "ts": "1355517523.000005",
+    "reactions": [
+        {
+            "name": "astonished",
+            "count": 3,
+            "users": [ "U1", "U2", "U3" ]
+        },
+        {
+            "name": "facepalm",
+            "count": 1034,
+            "users": [ "U1", "U2", "U3", "U4", "U5" ]
+        }]
 },
 {
     "type": "message",
-    "channel": "C2147483705",
-    "user": "U2147483697",
-    "text": "Hello world",
-    "ts": "1355517523.000005"
-}]
+    "message": {
+        "type": "message",
+        "user": "U06NKBGN8",
+        "text": "test:edited",
+        "edited": {
+            "user": "U06NKBGN8",
+            "ts": "1458672560.000000"
+        },
+        "ts": "1458672049.000002"
+    },
+    "subtype": "message_changed",
+    "hidden": true,
+    "channel": "C0AJZ3BT4",
+    "ts": "1458672560.000003",
+    "original": {
+        "type": "message",
+        "user": "U06NKBGN8",
+        "text": "test:original",
+        "ts": "1458672049.000002"
+    }
+  }]

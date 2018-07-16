@@ -8,7 +8,24 @@
 {
     "type": "message",
     "channel": "C2147483705",
+    "hidden": true,
+    "subtype": "message_deleted",
     "user": "U2147483697",
     "text": "Hello world",
-    "ts": "1355517523.000005"
+    "ts": "1355517525.000005"
+},
+{
+    "type": "message",
+    "channel": "C2147483705",
+    "user": "U2147483697",
+    "text": "Hello world",
+    "ts": "1355517570.000005"
+},
+{
+    "type": "message",
+    "subtype": "channel_name",
+    "channel": "C2147483705",
+    "user": "U2147483697",
+    "text": "Hello world",
+    "ts": "1355517570.000005"
 }]
